@@ -1,0 +1,20 @@
+{
+  "name": "arcsusbscription",
+  "version": "1.0.0",
+  "description": "Autonomous AI-powered subscription payment system built on the Arc blockchain using native USDC for stable, on-chain recurring payments. This project demonstrates the integration of Solidity smart contracts, AI automation, and Arc's deterministic fee structure for real-world content creator micropayments.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0"
+  }
+}
