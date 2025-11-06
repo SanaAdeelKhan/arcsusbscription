@@ -1,4 +1,3 @@
-
 # AI Subscription Payment Agent on Arc
 
 Autonomous AI-powered subscription payment system built on the Arc blockchain using native USDC for stable, on-chain recurring payments. This project demonstrates the integration of Solidity smart contracts, AI automation, and Arc's deterministic fee structure for real-world content creator micropayments.
@@ -102,4 +101,4 @@ Autonomous AI-powered subscription payment system built on the Arc blockchain us
 
 ## License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Team Green

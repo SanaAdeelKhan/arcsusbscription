@@ -1,1 +1,27 @@
-# Foundry config placeholder
+[profile.default]
+# Solidity source files folder
+src = "contracts"
+
+# Tests folder
+test = "tests"
+
+# Output folder for build artifacts
+out = "out"
+
+# Enable Solidity optimizer with runs tuned for deployment efficiency
+optimizer = true
+optimizer_runs = 20000
+
+# Solidity compiler version
+solc_version = "0.8.18"
+
+# Default Ethereum network chain ID (Arc uses EVM compatibility, so set accordingly for testnet/mainnet)
+chain_id = 71401  # Example: replace with Arc testnet chain ID
+
+# Gas limit to use for transactions by default
+gas_limit = 8000000
+
+# RPC URLs can be injected via environment variables or override here for scripts/tests
+# rpc_endpoints can be defined for multiple networks
+[rpc_endpoints]
+arc_testnet = "${ARC_TESTNET_RPC_URL}"
